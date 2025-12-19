@@ -6,7 +6,7 @@ const settlementRoutes = require('./routes/settlementRoutes');
 const app = express();
 app.use(express.json());
 
-// ✅ ADD THIS
+
 app.get('/', (req, res) => {
   res.send('Expense Sharing Backend API is running');
 });
